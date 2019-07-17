@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+}
+
+.player-game__Screen {
+    background-color:rgba(255,255,255,0.9);
+    width:320px;
+    height:640px;
+    margin: auto;
+    overflow: scroll;
+}
+
+.player-game__header {
+    background:#50aadd;
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.50);
+    width:320px;
+    height:74px;
+    display: flex;
+    align-items: center;
+}
+
+.player-game__image {
+    margin-left: 10%;
+    background:#4189BB;
+    width:34px;
+    height:41px;
+    border-radius:100%;
+}
+
+.player-game__image img {
+    width: 32px;
+    height: 41px;
+}
+
+.player-game__heading {
+    font-family:'Roboto';
+    font-size:16px;
+    color:#ffffff;
+    letter-spacing:0;
+    text-align:left;
+    margin-left: 5%;
+}
+
+.player-game__heading h3 {
+    margin: 0;
+}
+
+.player-game__heading p {
+    margin: 0;
+    font-size:12px;
+}
+
+.player-game__player_one, .player-game__player_two {
+    background:#a5a6a9;
+    width:34px;
+    height:41px;
+    border-radius:100%;
+}
+
+.player-game__player_two img {
+    width: 34px;
+    height: 41px;
+    border-radius: 100%;
+}
+
+.player-game__added-number {
+    background:#50aadd;
+    border-radius:28px;
+    width:56px;
+    height:56px;
+    color: white;
+}
+
+.player-game__calculation, .player-game__result, .login__email {
+    background:#ffffff;
+    box-shadow:0 2px 6px 0 rgba(47,83,151,0.10);
+    border-radius:3px;
+    width:198px;
+    height:32px;
+}
+
+.player-game__main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.player-game__added-number, .player-game__calculation, .player-game__result {
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-game__added-number {
+    font-weight: 700;
+}
+
+.login {
+    width:320px;
+    height:566px;
+    margin: auto;
+    display: flex;
+    padding-top: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__next {
+    background:#50aadd;
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.25);
+    border-radius:100px;
+    width:243px;
+    height:56px;
+    color: white;
+    font-weight: 700;
+}
+
+.login__email {
+    margin-bottom: 12%;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player-game_user_two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.player-game__added-number:disabled{
+    opacity: 0.5;
+}
+
+.winOrLose {
+    font-family:Roboto-Bold;
+    font-size:41px;
+    color:#ffffff;
+    letter-spacing:0;
+    text-align:left;
+}
+
+.game__win-lose {
+    opacity:0.9;
+    background:#50aadd;
+    width:320px;
+    height:566px;
+    margin: auto;
+    display: flex;
+    padding-top: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new_game {
+    background:#ffffff;
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.25);
+    border-radius:100px;
+    width:243px;
+    height:56px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A9FD8
+}
